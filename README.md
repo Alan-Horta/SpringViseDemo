@@ -14,13 +14,13 @@ Si no descargar el [repository](https://github.com/Alan-Horta/AngularViseDemo) y
 
 La aplicacion requiere el uso de MySql, el default path esta configurado a `spring.datasource.url=jdbc:mysql://localhost/sales?useSSL=false` en `application.properties` por si en dado caso se requiera modificar
 La aplicacion requiere que exista un Schema con el nombre `sales` y este debe de tener la siguiente estructura 
-`CREATE TABLE `product` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(45) NOT NULL,
-  `brand` varchar(45) NOT NULL,
-  `madein` varchar(45) NOT NULL,
-  `price` float NOT NULL,
-  PRIMARY KEY (`id`)
+`CREATE TABLE 'product' (
+  'id' int(11) NOT NULL AUTO_INCREMENT,
+  'name' varchar(45) NOT NULL,
+  'brand' varchar(45) NOT NULL,
+  'madein' varchar(45) NOT NULL,
+  'price' float NOT NULL,
+  PRIMARY KEY ('id')
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;`
 de acerudo a las instrucciones
 
